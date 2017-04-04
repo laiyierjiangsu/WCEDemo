@@ -15,6 +15,7 @@ static IDXGISwapChain*          g_pSwapChain = NULL;
 static ID3D11RenderTargetView*  g_mainRenderTargetView = NULL;
 
 void CreateRenderTarget()
+
 {
     DXGI_SWAP_CHAIN_DESC sd;
     g_pSwapChain->GetDesc(&sd);
